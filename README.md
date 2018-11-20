@@ -3,4 +3,25 @@
 
 > [Brew](https://github.com/Homebrew) formulae for [AXE](https://github.com/AXErunners/axe).
 
-##### Install with `brew tap axerunners/axe`
+## Installation
+
+```
+brew tap axerunners/axe
+```
+
+### Client
+```
+brew install axe
+```
+
+## Upgrading
+
+```
+brew update && brew upgrade
+```
+
+## Minor updates
+
+```
+brew update && brew reinstall axe
+```
