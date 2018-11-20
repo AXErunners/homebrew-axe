@@ -2,6 +2,7 @@ class Axe < Formula
   desc "Decentralized blockchain"
   homepage "https://github.com/AXErunners/axe"
   url "https://github.com/AXErunners/axe/releases/download/v1.1.8/axecore-1.1.8.tar.gz"
+  sha256 "5108c3aa08746ba4af7b076b457315daa0e817303c81f08c8c85f6de9ff8361d"
   revision 1
 
   head do
