@@ -1,4 +1,4 @@
-class Electrum-axe < Formula
+class ElectrumAxe < Formula
   include Language::Python::Virtualenv
 
   desc "AXE thin client"
