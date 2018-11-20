@@ -9,7 +9,7 @@
 brew tap axerunners/axe
 ```
 
-### Client
+### Node
 ```
 brew install axe
 ```
