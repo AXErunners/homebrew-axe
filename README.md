@@ -3,4 +3,4 @@
 
 #### Brew formulae for [AXE](https://github.com/AXErunners/axe).
 
-Install with `brew tap charlesrocket/axe`
+> Install with `brew tap charlesrocket/axe`
