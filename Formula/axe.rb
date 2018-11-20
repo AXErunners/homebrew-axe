@@ -33,7 +33,6 @@ class Axe < Formula
                           "--with-boost-libdir=#{Formula["boost"].opt_lib}",
                           "--prefix=#{prefix}"
     system "make", "install"
-    pkgshare.install "share/rpcuser"
   end
 
   plist_options :manual => "axed"
