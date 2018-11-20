@@ -30,11 +30,10 @@ class Axe < Formula
 
     system "./autogen.sh" if build.head?
     system "./configure", "--disable-dependency-tracking",
-                          "--disable-silent-rules",
                           "--with-boost-libdir=#{Formula["boost"].opt_lib}",
                           "--prefix=#{prefix}"
     system "make", "install"
-    pkgshare.install "share/rpcauth"
+    pkgshare.install "share/rpcuser"
   end
 
   plist_options :manual => "axed"
