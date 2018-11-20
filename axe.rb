@@ -1,7 +1,7 @@
 class Bitcoin < Formula
   desc "Decentralized, peer to peer payment network"
   homepage "https://axerunners.com/"
-  url "https://bitcoin.org/bin/bitcoin-core-0.17.0/bitcoin-0.17.0.tar.gz"
+  url "https://github.com/AXErunners/axe/releases/download/v1.1.8/axecore-1.1.8.tar.gz"
   revision 1
 
   head do
