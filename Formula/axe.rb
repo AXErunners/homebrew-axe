@@ -3,7 +3,7 @@ class Axe < Formula
   homepage "https://github.com/AXErunners/axe"
   url "https://github.com/AXErunners/axe/releases/download/v1.1.8/axecore-1.1.8.tar.gz"
   revision 1
-  
+
   head do
     url "https://github.com/axerunners/axe.git"
 
