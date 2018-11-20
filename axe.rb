@@ -1,5 +1,5 @@
-class Bitcoin < Formula
-  desc "Decentralized, peer to peer payment network"
+class Axe < Formula
+  desc "Decentralized blockchain"
   homepage "https://axerunners.com/"
   url "https://github.com/AXErunners/axe/releases/download/v1.1.8/axecore-1.1.8.tar.gz"
   revision 1
