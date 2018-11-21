@@ -17,6 +17,7 @@ before_install:
 script:
   - brew test-bot
   - brew audit --strict ./Formula/*.rb
-  - brew cask audit --strict ./Casks/*.rb
   - brew install -v ./Formula/*.rb
   - brew test ./Formula/*.rb
+  - brew cask audit --strict ./Casks/*.rb
+  - brew cask install -v ./Casks/*.rb
