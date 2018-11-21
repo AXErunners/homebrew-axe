@@ -9,9 +9,14 @@
 brew tap axerunners/axe
 ```
 
-### Node
+### Core client
 ```
 brew install axe
+```
+
+### Thin client
+```
+brew install electrum-axe
 ```
 
 ## Upgrading
@@ -24,4 +29,8 @@ brew update && brew upgrade
 
 ```
 brew update && brew reinstall axe
+```
+
+```
+brew update && brew reinstall electrum-axe
 ```
