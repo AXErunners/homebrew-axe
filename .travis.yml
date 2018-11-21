@@ -5,9 +5,6 @@ osx_image: xcode9.2
 cache:
   directories:
     - /usr/local/Homebrew/Library/Homebrew/vendor/bundle
-branches:
-  only:
-    - master
 
 before_install:
   - sudo chown -R "$USER" "$(brew --repo)"
