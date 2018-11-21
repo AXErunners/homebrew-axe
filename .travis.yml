@@ -16,6 +16,6 @@ before_install:
 
 script:
   - brew test-bot
-  - brew audit --strict ./Formula/electrum-axe.rb
-  - brew install -v ./Formula/electrum-axe.rb
-  - brew test ./Formula/electrum-axe.rb
+  - brew audit --strict ./Formula/*.rb
+  - brew install -v ./Formula/*.rb
+  - brew test ./Formula/*.rb
