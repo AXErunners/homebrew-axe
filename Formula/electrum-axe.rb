@@ -4,6 +4,7 @@ class ElectrumAxe < Formula
   desc "AXE thin client"
   homepage "https://github.com/AXErunners/electrum-axe"
   url "https://github.com/AXErunners/electrum-axe/archive/v3.2.3.1.tar.gz"
+  sha256 "7c30edff770a38609fd2672c6f55e3bf9258b15970fa15a67b754cc449fc365b"
 
   depends_on "protobuf"
   depends_on "pyqt"
