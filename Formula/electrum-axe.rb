@@ -150,6 +150,11 @@ class ElectrumAxe < Formula
     sha256 "a68ac5e15e76e7e5dd2b8f94007233e01effe3e50e8daddf69acfd81cb686baf"
   end
 
+  resource "x11_hash" do
+    url "https://files.pythonhosted.org/packages/1a/85/9b4058ef4a3a4678c2a039c59b07fb6003ccde2fd6a05cc5670da247ba4e/x11_hash-1.4.tar.gz"
+    sha256 "42dceac44ce95462b8f3f96f384afc56d3d461ec4b757283df31afd5539d5a9c"
+  end
+
   resource "websocket-client" do
     url "https://files.pythonhosted.org/packages/30/c8/82ac8ae45073034af51c6296c35346caab4fa26456c19f9cf64d2b978971/websocket_client-0.52.0.tar.gz"
     sha256 "3c9924675eaf0b27ae22feeeab4741bb4149b94820bd3a143eeaf8b62f64d821"
