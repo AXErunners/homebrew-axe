@@ -19,3 +19,5 @@ script:
   - brew audit --strict ./Formula/*.rb
   - brew install -v ./Formula/*.rb
   - brew test ./Formula/*.rb
+  - brew cask audit ./Casks/*.rb
+  - brew cask install -v ./Casks/*.rb
