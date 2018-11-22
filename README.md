@@ -18,23 +18,23 @@ brew cask install axe
 
 ### Formula
 
-### Core client
+#### Core client
 ```
 brew install axe
 ```
 
-### Thin client
+#### Thin client
 ```
 brew install electrum-axe
 ```
 
 ## Upgrading
 
-### Source
+#### Source
 ```
 brew update && brew upgrade
 ```
-### Binary
+#### Binary
 ```
 $ brew cask upgrade
 ```
