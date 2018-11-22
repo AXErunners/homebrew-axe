@@ -8,17 +8,17 @@
 brew tap axerunners/axe
 ```
 
-### Core binary
+### Core client binary
 ```
 brew cask install axe
 ```
 
-### Core source
+### Core client source
 ```
 brew install axe
 ```
 
-### Thin source
+### Thin client source
 ```
 brew install electrum-axe
 ```
