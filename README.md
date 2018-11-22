@@ -24,11 +24,11 @@ brew install electrum-axe
 ```
 
 ## Upgrading
-Source
+### Source
 ```
 brew update && brew upgrade
 ```
-Binary
+### Binary
 ```
 $ brew cask upgrade
 ```
