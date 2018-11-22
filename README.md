@@ -3,27 +3,33 @@
 
 > [Brew](https://github.com/Homebrew) formulae for [AXE](https://github.com/AXErunners/axe).
 
+Use cask to install binaries or formula to build from the source code.
+
 ## Installation
 ```
 brew tap axerunners/axe
 ```
+### Cask
 
-### Core client binary
+#### Core client
 ```
 brew cask install axe
 ```
 
-### Core client source
+### Formula
+
+### Core client
 ```
 brew install axe
 ```
 
-### Thin client source
+### Thin client
 ```
 brew install electrum-axe
 ```
 
 ## Upgrading
+
 ### Source
 ```
 brew update && brew upgrade
