@@ -9,7 +9,7 @@ cask 'ElectrumAxe' do
   app 'Electrum-AXE.app'
 
   zap trash: [
-               '~/.electrum',
+               '~/.electrum-axe',
                '~/Library/Preferences/Electrum-AXE.plist',
                '~/Library/Preferences/org.org.pythonmac.unspecified.Electrum-AXE.plist',
                '~/Library/Saved Application State/Electrum-AXE.savedState',
