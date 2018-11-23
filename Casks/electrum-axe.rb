@@ -1,4 +1,4 @@
-cask 'ElectrumAxe' do
+cask 'electrum-axe' do
   version '3.2.3.1'
 
   url "https://github.com/AXErunners/electrum-axe/releases/download/v#{version}/electrum-axe-#{version}-macosx.dmg"
