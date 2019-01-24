@@ -1,6 +1,6 @@
 os: osx
 compiler: clang
-osx_image: xcode10
+osx_image: xcode10.1
 cache:
   directories:
     - /usr/local/Homebrew/Library/Homebrew/vendor/bundle
