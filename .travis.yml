@@ -14,10 +14,17 @@ before_install:
   - ln -s "$PWD" "$HOMEBREW_TAP_DIR"
   - brew install libyaml
 
-script:
-  - brew test-bot
-  - brew audit --strict ./Formula/*.rb
-  - brew install -v ./Formula/*.rb
-  - brew test ./Formula/*.rb
-  - brew cask audit ./Casks/*.rb
-  - brew cask install -v ./Casks/*.rb
+jobs:
+  include:
+    - stage: test-bot
+      script: brew test-bot
+    - stage: audit
+      script: brew audit --strict ./Formula/*.rb
+    - stage: deploy Formula
+      script: brew install -v ./Formula/*.rb
+    - stage: test Formula
+      script: brew test ./Formula/*.rb
+    - stage: audit Casks
+      script: brew cask audit ./Casks/*.rb
+    - stage: deploy Casks
+      script: brew cask install -v ./Casks/*.rb
