@@ -6,13 +6,13 @@ cache:
     - /usr/local/Homebrew/Library/Homebrew/vendor/bundle
 
 before_install:
-  - rvm pkg install libyaml
   - sudo chown -R "$USER" "$(brew --repo)"
   - travis_retry brew update
   - HOMEBREW_TAP_DIR="$(brew --repo "$TRAVIS_REPO_SLUG")"
   - mkdir -p "$HOMEBREW_TAP_DIR"
   - rm -rf "$HOMEBREW_TAP_DIR"
   - ln -s "$PWD" "$HOMEBREW_TAP_DIR"
+  - brew install libyaml
 
 script:
   - brew test-bot
