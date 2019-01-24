@@ -20,8 +20,8 @@ jobs:
       script: brew test-bot
     - stage: formula
       script: brew audit --strict ./Formula/*.rb
-      script: brew install -v ./Formula/*.rb
-      script: brew test ./Formula/*.rb
+    - script: brew install -v ./Formula/*.rb
+    - script: brew test ./Formula/*.rb
     - stage: casks
       script: brew cask audit ./Casks/*.rb
-      script: brew cask install -v ./Casks/*.rb
+    - script: brew cask install -v ./Casks/*.rb
