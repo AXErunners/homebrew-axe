@@ -18,13 +18,10 @@ jobs:
   include:
     - stage: test-bot
       script: brew test-bot
-    - stage: audit
+    - stage: formula
       script: brew audit --strict ./Formula/*.rb
-    - stage: deploy Formula
       script: brew install -v ./Formula/*.rb
-    - stage: test Formula
       script: brew test ./Formula/*.rb
-    - stage: audit Casks
+    - stage: casks
       script: brew cask audit ./Casks/*.rb
-    - stage: deploy Casks
       script: brew cask install -v ./Casks/*.rb
