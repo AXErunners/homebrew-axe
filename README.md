@@ -3,8 +3,6 @@
 
 > [Brew](https://github.com/Homebrew) tap for [AXE](https://github.com/AXErunners/axe).
 
-Use cask to install binaries or formula to build from the source code.
-
 ## Installation
 ```
 brew tap axerunners/axe
