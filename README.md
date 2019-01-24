@@ -9,7 +9,7 @@ Use cask to install binaries or formula to build from the source code.
 ```
 brew tap axerunners/axe
 ```
-### Cask
+
 #### Core client
 ```
 brew cask install axe
@@ -18,29 +18,9 @@ brew cask install axe
 ```
 brew cask install electrum-axe
 ```
-### Formula
-#### Core client
-```
-brew install axe
-```
-#### Thin client
-```
-brew install electrum-axe
-```
+
 ## Upgrading
-#### Source
-```
-brew update && brew upgrade
-```
 #### Binary
 ```
 $ brew cask upgrade
-```
-## Minor updates
-```
-brew update && brew reinstall axe
-```
-
-```
-brew update && brew reinstall electrum-axe
 ```
