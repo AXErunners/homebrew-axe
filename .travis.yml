@@ -7,7 +7,7 @@ cache:
     - /usr/local/Homebrew/Library/Homebrew/vendor/bundle
 
 before_install:
-  - softwareupdate --install -a
+  - softwareupdate --list
 
 script:
   - brew test-bot
