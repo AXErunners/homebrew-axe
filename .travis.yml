@@ -1,5 +1,4 @@
 os: osx
-language: c
 compiler: clang
 osx_image: xcode10.1
 cache:
