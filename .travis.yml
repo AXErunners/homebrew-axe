@@ -1,19 +1,9 @@
 os: osx
-language: c
 compiler: clang
 osx_image: xcode10.1
 cache:
   directories:
     - /usr/local/Homebrew/Library/Homebrew/vendor/bundle
-
-before_install:
-  - softwareupdate --install -a
-  - sudo chown -R "$USER" "$(brew --repo)"
-  - travis_retry brew update
-  - HOMEBREW_TAP_DIR="$(brew --repo "$TRAVIS_REPO_SLUG")"
-  - mkdir -p "$HOMEBREW_TAP_DIR"
-  - rm -rf "$HOMEBREW_TAP_DIR"
-  - ln -s "$PWD" "$HOMEBREW_TAP_DIR"
 
 script:
   - brew test-bot
