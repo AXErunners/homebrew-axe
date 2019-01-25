@@ -6,9 +6,6 @@ cache:
   directories:
     - /usr/local/Homebrew/Library/Homebrew/vendor/bundle
 
-before_install:
-  - softwareupdate --list
-
 script:
   - brew test-bot
   - brew cask audit ./Casks/*.rb
