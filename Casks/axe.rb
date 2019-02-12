@@ -1,6 +1,6 @@
 cask 'axe' do
-  sha256 '14d9fa840cfe841c96dc67fdd620bbb50327995e174450c6a51e351c61c9d17d'
   version '1.2.1'
+  sha256 '0db5a916765badc752d78d280e011d5b04051bfc778363c5d6e13679fde24251'
   url "https://github.com/axerunners/axe/releases/download/v#{version}/axecore-#{version}-osx-unsigned.dmg"
   appcast 'https://github.com/axerunners/axe/releases.atom'
   name 'Axe'
