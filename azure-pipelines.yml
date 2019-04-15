@@ -12,4 +12,5 @@ jobs:
         rm -rf "$HOMEBREW_TAP_DIR"
         ln -s "$PWD" "$HOMEBREW_TAP_DIR"
         brew test-bot
-      displayName: Run brew test-bot
+        brew cask audit ./Casks/*.rb
+        brew cask install -v ./Casks/*.rb
