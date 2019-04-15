@@ -1,5 +1,5 @@
 # AXE Homebrew tap
-[![Build Status](https://travis-ci.com/AXErunners/homebrew-axe.svg?branch=master)](https://travis-ci.com/AXErunners/homebrew-axe)
+[![Build Status](https://dev.azure.com/axerunners/homebrew/_apis/build/status/AXErunners.homebrew-axe?branchName=master)](https://dev.azure.com/axerunners/homebrew/_build/latest?definitionId=1&branchName=master)
 
 > [Brew](https://github.com/Homebrew) tap for [AXE](https://github.com/AXErunners/axe).
 
@@ -14,7 +14,7 @@ brew cask install axe
 ```
 #### Thin client
 ```
-brew cask install electrum-axe
+brew cask install axe-electrum
 ```
 
 ## Upgrading
