@@ -1,13 +1,13 @@
-cask 'electrum-axe' do
-  version '3.2.3.1'
-  sha256 '224bc4e231e69a743b1c2b246db6d7860abed2d3a124d1f5d5e8578eb027a8a1'
+cask 'axe-electrum' do
+  version '3.2.5.2'
+  sha256 '8a8bb55f43631b329690d5095ae710f59f23c31a2579ccd3ec7e883e04cab23e'
 
-  url "https://github.com/AXErunners/electrum-axe/releases/download/v#{version}/electrum-axe-#{version}-macosx.dmg"
+  url "https://github.com/AXErunners/electrum-axe/releases/download/#{version}/axe-electrum-#{version}-macosx.dmg"
   appcast 'https://github.com/AXErunners/electrum-axe/releases.atom'
-  name 'Electrum'
+  name 'Axe Electrum'
   homepage 'https://github.com/AXErunners/electrum-axe/'
 
-  app 'Electrum-AXE.app'
+  app 'Axe Electrum.app'
 
   zap trash: [
                '~/.electrum-axe',
