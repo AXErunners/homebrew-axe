@@ -10,3 +10,4 @@ jobs:
         brew test-bot
         brew cask audit ./Casks/*.rb
         brew cask install -v ./Casks/*.rb
+        brew cask style ./Casks/*.rb
