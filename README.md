@@ -3,6 +3,11 @@
 
 > [Brew](https://github.com/Homebrew) tap for [AXE](https://github.com/axerunners/axe).
 
+## Pre
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
 ## Installation
 ```
 brew tap axerunners/axe
