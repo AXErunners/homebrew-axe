@@ -8,4 +8,8 @@ cask 'axe-core' do
   homepage 'https://github.com/axerunners/axe'
 
   app 'Axe-Qt.app', target: 'Axe Core.app'
+
+  preflight do
+    set_permissions "#{staged_path}/Axe-Qt.app", '0755'
+  end
 end
