@@ -12,4 +12,12 @@ cask 'axe-core' do
   preflight do
     set_permissions "#{staged_path}/Axe-Qt.app", '0755'
   end
+
+  postflight do
+    set_permissions "#{appdir}/Axe-Qt.app", '0555'
+  end
+
+  uninstall_preflight do
+    set_permissions "#{appdir}/Axe-Qt.app", '0755'
+  end
 end
