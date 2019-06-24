@@ -9,7 +9,7 @@
 brew tap axerunners/axe
 ```
 
-#### Core client
+#### Core client (upstream)
 ```
 brew cask install axe-core
 ```
